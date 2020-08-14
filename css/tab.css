@@ -1,0 +1,76 @@
+/*Style for Navigation*/
+#nav ul {
+    flex-direction: column;
+}
+/*Style For Head Section*/ 
+#head-sec {
+    height:470px;
+    margin: 15px;
+}
+#head-sec::before {
+    height:820px;
+}
+#head-sec .info-pic img {
+    height: 230px;
+}
+#head-sec .info-pic {
+    padding: 10px;
+}
+#head-sec .info .info-h h1 {
+    font-size: 2.3rem;
+}
+#head-sec .info h1 em {
+    font-size: 1.1rem;
+}
+.info_btn {
+    font-size: 1.3rem;
+    padding: 7px 35px;
+}
+/*Style for Skills*/
+#skills h1 {
+    font-size: 2.1rem
+}
+#skills .lang-box .box .box-img img {
+    height: 105px;
+}
+#skills .lang-box .box h3 {
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+/*Style for Education*/
+#qualifi h1 {
+    font-size:2.1rem;
+}
+#qualifi .education .edu {
+    width:290px;
+}
+/*Project Section*/
+#project h1 {
+    font-size:2.1rem;
+}
+#project .pro-boxs img {
+    height: 300px;
+}
+/*Style for Contact Section*/
+#contact h1 {
+    font-size:2.1rem;
+}
+.cont-info-box img {
+    height: 70px;
+}
+.cont-info-box {
+    margin: 7px;
+}
+.cont-info-box {
+    padding: 5px;
+}
+.cont-info-pro-box img {
+    height:90px;
+}
+.cont-info-pro-box {
+    margin: 7px;
+}
+.cont-info-pro-box {
+    padding: 5px;
+}

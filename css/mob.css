@@ -1,0 +1,106 @@
+/*Style for Navigation*/
+#nav ul {
+    flex-direction: column;
+}
+/*Style For Head Section*/ 
+#head-sec {
+    flex-direction: column;
+}
+.info_btn {
+    padding: 5px 40px;
+    font-size: 1.1rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/*Style For Head Section*/ 
+#head-sec {
+    height:520px;
+    margin: 5px;
+}
+#head-sec::before {
+    height:930px;
+}
+#head-sec .info-pic {
+    margin: 10px;
+    padding: 10px 20px;
+}
+#head-sec .info-pic img {
+    height: 180px;
+}
+#head-sec .info {
+    margin: 5px;
+}
+#head-sec .info .info-h h1 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+#head-sec .info h1 em {
+    font-size: 1.1rem;
+    text-align: center;
+}
+/*Style for Skills*/
+#skills h1 {
+    font-size: 1.9rem
+}
+#skills .lang-box .box .box-img img {
+    height: 100px;
+}
+#skills .lang-box .box h3 {
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+/*Style for Education*/
+#qualifi h1 {
+    font-size:1.9rem;
+}
+#qualifi .education .edu {
+    width:310px;
+    height:425px;
+}
+#qualifi .education .edu h2 {
+    font-size: 1.3rem;
+}
+#qualifi .education .edu .col-1 p {
+    font-size: 0.8rem;
+}
+#qualifi .education .edu .col-2 h3 {
+    font-size: 1.1rem;
+}
+/*Project Section*/
+#project h1 {
+    font-size:1.9rem;
+}
+#project .pro-boxs img {
+    height: 230px;
+}
+#project .pro-boxs .box .box-info p {
+  font-size: 0.8rem;
+}
+/*Style for Contact Section*/
+#contact-box {
+    flex-direction: column;
+}
+.cont-info {
+    flex-direction: row;
+}
+#contact h1 {
+    font-size:1.9rem;
+}
+.cont-info-box img {
+    height: 60px;
+}
+.cont-info-box {
+    margin: 7px;
+}
+.cont-info-box {
+    padding: 5px;
+}
+.cont-info-pro-box img {
+    height:85px;
+}
+.cont-info-pro-box {
+    margin: 7px;
+}
+.cont-info-pro-box {
+    padding: 5px;
+}
